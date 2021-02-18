@@ -19,6 +19,7 @@ botoes_init();
     while(1)
     { 
         if( botaoliga () == 1)
+        {    
         k1 (1);
         k2 (1);
         k3 (0);
@@ -26,9 +27,12 @@ botoes_init();
         k1(0);
         k2 (0);
         k3 (1);
+        }    
         if(botaodesliga() == 1 )
+        {
         k1 (0);
         k2 (0);
         k3 (0);
+        }    
     }
 }
